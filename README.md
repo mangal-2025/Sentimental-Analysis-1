@@ -1,4 +1,4 @@
-# Sentimental Analysis of FCA CRM 609
+# VADER Sentimental Analysis of FCA CRM 609
 Python program for beginner sentiment analysis
 # 🐍 Python Excel Sentiment Analysis Project
 
