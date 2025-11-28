@@ -40,6 +40,23 @@ python3 excel_analyzer.py
 
 To run this script on your local machine (Mac, Windows, or Linux), you must have **Python 3** installed.
 
+
+📈 **Visualization: Generating the Sentiment Chart**
+After the analysis script (excel_analyzer.py) runs and generates the output file, you can use Python to create a clear visual representation of the sentiment distribution.
+
+**Prerequisites for Charting**
+In addition to the libraries already installed, you need Matplotlib to generate the charts:
+
+Bash
+
+pip install matplotlib
+
+
+🖼️ **Chart Generation Steps**
+You can integrate the chart generation code directly into the end of your excel_analyzer.py script, or run it separately.
+
+Code Snippet: Use the Plot_Chart.py Python code to read the  Excel file and create the chart. This code counts the labels in the Sentiment_Label column and generates a Pie Chart.
+
 You also need the following Python libraries. Install them via your Terminal or Command Prompt:
 
 ```bash
