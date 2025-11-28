@@ -47,19 +47,20 @@ After the analysis script (excel_analyzer.py) runs and generates the output file
 **Prerequisites for Charting**
 In addition to the libraries already installed, you need Matplotlib to generate the charts:
 
-Bash
-
 pip install matplotlib
 
+You also need the following Python libraries. Install them via your Terminal or Command Prompt:
+
+pip install pandas nltk openpyxl
 
 🖼️ **Chart Generation Steps**
 You can integrate the chart generation code directly into the end of your excel_analyzer.py script, or run it separately.
 
 Code Snippet: Use the Plot_Chart.py Python code to read the  Excel file and create the chart. This code counts the labels in the Sentiment_Label column and generates a Pie Chart.
 
-You also need the following Python libraries. Install them via your Terminal or Command Prompt:
-
-```bash
-pip install pandas nltk openpyxl
-
 If yu have any questions, please contact Mangal Kumar at mangal@email.sc.edu
+
+
+
+
+
