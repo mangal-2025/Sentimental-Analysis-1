@@ -62,3 +62,4 @@ You also need the following Python libraries. Install them via your Terminal or 
 ```bash
 pip install pandas nltk openpyxl
 
+If yu have any questions, please contact Mangal Kumar at mangal@email.sc.edu
